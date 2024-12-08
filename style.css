@@ -375,6 +375,85 @@ nav .nav-item ul li a{
     font-size: 1.1rem;
 }
 
+/* ---------------------Footer Section------------------------- */
+.footer {
+    width: 100%;
+    background: #f8f8f8;
+}
+.footer .container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-top img{
+    width: 140px;
+
+}
+.footer-top .footer-btn button{
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    border: 1px solid #b3b0b0;
+    font-size: 16px;
+    margin: 0 6px;
+    border-radius: 8px
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-links .column{
+    margin: 50px 12px;
+
+}
+.footer-links .column .col-links{
+    list-style: none;
+    margin-top: 16px;
+    
+}
+.footer-links .column .col-links li{
+   margin: 10px 0;  
+}
+.footer-links .column .col-links li a{
+    text-decoration: none;
+    color: #b3b2b2;
+    font-size: 15px;
+
+ }
+ .footer-links .column div{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+ }
+
+ .col-links a i{
+    padding: 6px;
+    color: white;
+    background: rgb(51, 53, 51);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+ }
+ .col-links li img{
+    width: 130px;
+
+ }
+ .footer-bottom{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+    color: #6b6a6a;
+    
+ }
+
 /* Media Query for small screen size */
 @media only screen and (max-width: 768px){
     .menu-icon{
